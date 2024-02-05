@@ -2,7 +2,6 @@ abcd
 fd
 git 테스트
 fetch 테스트
-
 A작업 추가
 B 작업 추가
 dkfjsldkfjlsk
