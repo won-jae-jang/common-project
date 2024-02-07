@@ -68,6 +68,8 @@ public class Test5 {
 			
 			if (menunum < 1 && menunum > 4) {
 				System.out.printf("올바른 주문이 아닙니다. %d원 반환\n", coin);
+			}else if (menucost > coin){
+				System.out.printf("투입 금액이 부족합니다. %d원 반환\n", coin);
 			}else if (menunum >= 1 && menunum <= 3){
 				System.out.print("식사 방식을 선택하세요. (1. 포장, 2.매장식사)");
 				wherenum = sc.nextInt();
