@@ -1,5 +1,3 @@
-package if_;
-
 import java.util.Scanner;
 
 public class problem03 {
