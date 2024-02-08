@@ -15,7 +15,8 @@ public class quiz01 {
             int choice = sc.nextInt();
 
             if (choice == 1) {
-                throwYut();
+               if(throwYut() ==4) 
+		       break;
             } else if (choice == 2) {
                 System.out.println("게임을 종료합니다.");
                 break;
@@ -33,7 +34,7 @@ public class quiz01 {
 	 * O O O O => 윷
 	 * X X X X => 모
 	 */
-    private static void throwYut() {
+    private static int throwYut() {
         Random random = new Random();
         int result=0; // X(앞) O(뒤) 결과를 저장할 변수
         int sumFront = 0; // (X(앞)이 나온 개수)
@@ -76,7 +77,7 @@ public class quiz01 {
         	System.out.println();
         	break;
         }
-        
+        return sumFront;
         
     }
 }
