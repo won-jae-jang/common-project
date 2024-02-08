@@ -49,6 +49,7 @@ public class Test01 {
 				continue;
 			}else {
 				System.out.println("목숨이 모두 닳았습니다.");
+				System.out.println("정답은 " + ranInt + "입니다.");
 				break;
 			}
 		}
